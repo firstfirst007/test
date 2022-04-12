@@ -9,16 +9,13 @@
     <link rel="stylesheet" href="css\classroom.css">
 </head>
 <body>
-  <?php
-    $user = User::('username');
-  ?>
     <div class="navbar">
         <a href="createRoom" style="font-size: 15pt"><b>TypingTrain</b></a>
         <a href="classroom"><u>ห้องเรียน</u></a>
         <a href="pointSTD">คะแนนนักศึกษา</a>
         <a href="addSTD">เพิ่มข้อมูลนักศึกษา</a>
         <div class="dropdown">
-          <button class="dropbtn">{{$user}}
+          <button class="dropbtn">ชื่ออาจารย์
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">
