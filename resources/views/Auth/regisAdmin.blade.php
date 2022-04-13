@@ -15,7 +15,7 @@
         <h2>Register</h2>
     </div>
 
-    <form method="post">
+    <form action="homeAdmin">
         <div class="input-group">
             <label>Email</label>
             <input type="text" name="email">
@@ -25,22 +25,14 @@
             <input type="text" name="username">
         </div>
         <div class="input-group">
-            <label>Lastname</label>
-            <input type="text" name="lastname">
-        </div>
-        <div class="input-group">
             <label>Password</label>
             <input type="password" name="pws1">
-        </div>
-        <div class="input-group">
-            <label>Confirm Password</label>
-            <input type="password" name="pws2">
         </div>
         <div class="input-group">
             <button type="submit" name="register" class="btn btn-dark">Register</button>
         </div>
         <p>
-            Already a member? <a href="loginStudent">sign in</a>
+            Already a member? <a href="loginAdmin">log in</a>
         </p>
     </form>
 </body>

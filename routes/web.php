@@ -23,7 +23,13 @@ use App\Http\Controllers\AdminController;
 Route::get('/', function () {
     return view('home');
 });
-Route::get('/homeAdmin',[AdminController::class, 'Login']);
+Route::get('/loginAdmin',[AdminController::class, 'Login']);
+Route::get('/regisAdmin',[AdminController::class, 'Register']);
+Route::get('/homeAdmin',[AdminController::class, 'Home']);
+Route::get('/homeTeacher',[AdminController::class, 'homeTeacher']);
+Route::get('/dataTeacher',[AdminController::class, 'dataT']);
+Route::get('/homeStudent',[AdminController::class, 'homeStudent']);
+Route::get('/homeExercise',[AdminController::class, 'homeExercise']);
 Route::get('/loginStudent',[StudentController::class, 'Login'])->name('loginS');
 Route::get('/regisSTD',[StudentController::class, 'Regis'])->name('regisS');
 Route::get('/loginTeacher',[TeacherController::class, 'Login'])->name('loginT');
