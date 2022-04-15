@@ -14,6 +14,8 @@
         <a href="homeAdmin" style="font-size: 15pt"><b>TypingTrain</b></a>
         <div class="dropdown">
             <button class="dropbtn"><a href="regisAdmin">Sign in</a></button>
+        </div>
+        <div class="dropdown">
             <button class="dropbtn"><a href="loginAdmin">log in</a></button>
         </div>
         {{--<button class="dropbtn">ชื่อแอดมิน

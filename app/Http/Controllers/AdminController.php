@@ -27,4 +27,13 @@ class AdminController extends Controller
     function dataT() {
         return view('/Admin.dataTeacher');
     }
+    function addDataT() {
+        return view('/Admin.addDataTeacher');
+    }
+    function dataS() {
+        return view('Admin.dataStudent');
+    }
+    function addDataS() {
+        return view('Admin.addDataStudent');
+    }
 }
