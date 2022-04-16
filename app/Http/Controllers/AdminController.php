@@ -7,6 +7,33 @@ use Illuminate\Http\Request;
 class AdminController extends Controller
 {
     function Login() {
+        return view('/Auth.loginAdmin');
+    }
+    function Register() {
+        return view('/Auth.regisAdmin');
+    }
+    function Home() {
         return view('/Admin.homeAdmin');
+    }
+    function homeTeacher() {
+        return view('/Admin.homeTeacher');
+    }
+    function homeStudent() {
+        return view('/Admin.homeStudent');
+    }
+    function homeExercise() {
+        return view('/Admin.homeExercise');
+    }
+    function dataT() {
+        return view('/Admin.dataTeacher');
+    }
+    function addDataT() {
+        return view('/Admin.addDataTeacher');
+    }
+    function dataS() {
+        return view('Admin.dataStudent');
+    }
+    function addDataS() {
+        return view('Admin.addDataStudent');
     }
 }

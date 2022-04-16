@@ -4,18 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>AddStudent</title>
+    <title>Home Page Teacher</title>
 
     <link rel="stylesheet" href="css\admin.css">
 </head>
 <body>
     <div class="navbar">
-        <a href="createRoom" style="font-size: 15pt"><b>TypingTrain</b></a>
-        <a href="classroom">ห้องเรียน</a>
-        <a href="pointSTD">คะแนนนักศึกษา</a>
-        <a href="addSTD"><u>เพิ่มข้อมูลนักศึกษา</u></a>
+        <a href="homeAdmin" style="font-size: 15pt"><b>TypingTrain</b></a>
+        <a href="dataStudent">ข้อมูลนักศึกษา</a>
+        <a href="addDataStudent"><u>เพิ่มข้อมูลนักศึกษา</u></a>
         <div class="dropdown">
-          <button class="dropbtn">ชื่ออาจารย์ 
+          <button class="dropbtn">ชื่อแอดมิน
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content">

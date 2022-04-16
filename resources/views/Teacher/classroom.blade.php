@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Classroom</title>
 
-    <link rel="stylesheet" href="css\classroom.css">
+    <link rel="stylesheet" href="css\admin.css">
 </head>
 <body>
     <div class="navbar">
@@ -30,11 +30,15 @@
                 <a class = "nav-link" href="/">ออกจากระบบ</a>
               </li>
             </ul>
-          </div>  
+          </div>
         </div>
       </div>
-      <div class = "contain">
-        <h1 class = "text-center">@lang('lang.lang')</h1>
+
+      <div>
+        <h2>Section</h2>
+      </div>
+      <div class="">
+        
       </div>
 </body>
 </html>

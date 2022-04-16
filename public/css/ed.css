@@ -47,15 +47,40 @@ input {
     border-radius: 5px;
 }
 
-body{
-    background: url('https://i.pinimg.com/originals/e6/79/aa/e679aafc3babfaad994ffa73d7b2d9e4.jpg') no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    margin: 0;
-    padding: 0;
+.input-group {
+    margin: 10px 0px 10px 0px;
 }
 
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.btn1 {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background: skyblue;
+}
+
+.btn2 {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    background: red;
+}
 .navbar {
     overflow: hidden;
     background-color: #333;
@@ -70,7 +95,6 @@ body{
     text-decoration: none;
 }
 
-  
 .dropdown {
     float: right;
     overflow: hidden;
@@ -85,7 +109,6 @@ body{
     background-color: inherit;
     font-family: inherit;
     margin: 0;
-    padding: 0;
 }
   
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -117,3 +140,29 @@ body{
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+h2 {
+    text-align: center;
+    font-size: 20pt;
+}
+
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: auto;
+    padding: 10px;
+  }
+  
+td, th {
+    text-align: center;
+    border: 2px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+tr:nth-child(even) {
+    background-color: #494949;
+  }

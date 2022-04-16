@@ -18,6 +18,10 @@
 
     <div class="container2">
         <section>
+            <form action="regisAdmin">
+                <button class="btn" name="logAd">Admin</button>
+            </form>
+            <br>
             <form action="loginTeacher">
                 <button class="btn" name="logTeach">Teacher</button>
             </form>

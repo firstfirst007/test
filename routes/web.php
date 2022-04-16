@@ -23,9 +23,20 @@ use App\Http\Controllers\AdminController;
 Route::get('/', function () {
     return view('home');
 });
-Route::get('/homeAdmin',[AdminController::class, 'Login']);
+Route::get('/loginAdmin',[AdminController::class, 'Login']);
+Route::get('/regisAdmin',[AdminController::class, 'Register']);
+Route::get('/homeAdmin',[AdminController::class, 'Home']);
+Route::get('/homeTeacher',[AdminController::class, 'homeTeacher']);
+Route::get('/dataTeacher',[AdminController::class, 'dataT']);
+Route::get('/addDataTeacher',[AdminController::class, 'addDataT']);
+Route::get('/homeStudent',[AdminController::class, 'homeStudent']);
+Route::get('/dataStudent',[AdminController::class, 'dataS']);
+Route::get('/addDataStudent',[AdminController::class, 'addDataS']);
+Route::get('/homeExercise',[AdminController::class, 'homeExercise']);
+
 Route::get('/loginStudent',[StudentController::class, 'Login'])->name('loginS');
 Route::get('/regisSTD',[StudentController::class, 'Regis'])->name('regisS');
+
 Route::get('/loginTeacher',[TeacherController::class, 'Login'])->name('loginT');
 Route::get('/regisTeach',[TeacherController::class, 'Regis'])->name('regisT');
 Route::get('/createRoom',[TeacherController::class, 'createRoom'])->name('createRoom');
