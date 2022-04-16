@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>PointStudent</title>
 
-    <link rel="stylesheet" href="css\pointSTD.css">
+    <link rel="stylesheet" href="css\ed.css">
 </head>
 <body>
     <div class="navbar">
@@ -22,6 +22,33 @@
             <a href="/">ออกจากระบบ</a>
           </div>
         </div> 
+      </div>
+
+      <div class="table">
+        <h2>Data Student</h2>
+        <table>
+          <tr>
+            <th>Student ID</th>
+            <th>Username</th>
+            <th>Lastname</th>
+            <th>E-mail</th>
+            <th>Section</th>
+            <th>Update</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <div>
+                <button type="submit" class="btn1">View</button>
+                <button type="submit" class="btn1">Edit</button>
+              </div>
+            </td>
+          </tr>
+        </table>
       </div>
 </body>
 </html>

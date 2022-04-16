@@ -18,7 +18,7 @@
 
     <div class="container2">
         <section>
-            <form action="homeAdmin">
+            <form action="regisAdmin">
                 <button class="btn" name="logAd">Admin</button>
             </form>
             <br>

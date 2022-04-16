@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CreateRoom</title>
 
-    <link rel="stylesheet" href="css\createroom.css">
+    <link rel="stylesheet" href="css\admin.css">
 </head>
 <body>
     <div class="navbar">

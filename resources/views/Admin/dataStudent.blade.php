@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Data Student</title>
 
-    <link rel="stylesheet" href="css\admin.css">
+    <link rel="stylesheet" href="css\ed.css">
 </head>
 <body>
     <div class="navbar">
@@ -41,12 +41,10 @@
             <td></td>
             <td></td>
             <td>
-              <form>
-                <button class="btn1" type="submit">edit</button>
-              </form>
-              <form>
-                <button class="btn1" type="submit">delete</button>
-              </form>
+              <div>
+                <button type="submit" class="btn1 btn-primary">Edit</button>
+                <button type="submit" class="btn2 btn-danger">delete</button>
+              </div>
             </td>
           </tr>
         </table>

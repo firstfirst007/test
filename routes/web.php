@@ -33,8 +33,10 @@ Route::get('/homeStudent',[AdminController::class, 'homeStudent']);
 Route::get('/dataStudent',[AdminController::class, 'dataS']);
 Route::get('/addDataStudent',[AdminController::class, 'addDataS']);
 Route::get('/homeExercise',[AdminController::class, 'homeExercise']);
+
 Route::get('/loginStudent',[StudentController::class, 'Login'])->name('loginS');
 Route::get('/regisSTD',[StudentController::class, 'Regis'])->name('regisS');
+
 Route::get('/loginTeacher',[TeacherController::class, 'Login'])->name('loginT');
 Route::get('/regisTeach',[TeacherController::class, 'Regis'])->name('regisT');
 Route::get('/createRoom',[TeacherController::class, 'createRoom'])->name('createRoom');

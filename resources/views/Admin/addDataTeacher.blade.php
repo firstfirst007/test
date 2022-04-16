@@ -22,5 +22,31 @@
           </div>
         </div> 
       </div>
+
+      <div class="header">
+        <h2>Add Teacher</h2>
+      </div>
+      <form>
+        <div class="input-group">
+          <label><b>Email</b></label>
+          <input type="text" name="email">
+        </div>
+        <div class="input-group">
+          <label><b>Username</b></label>
+          <input type="text" name="username">
+        </div>
+        <div class="input-group">
+          <label><b>Lastname</b></label>
+          <input type="text" name="lastname">
+        </div>
+        <div class="input-group">
+          <label><b>Password</b></label>
+          <input type="password" name="pws1">
+        </div>
+        <div class="input-group">
+          <button type="submit" class="btn1 btn-success">Save</button>
+          <button type="submit" class="btn2 btn-success">Cancle</button>
+        </div>
+      </form>
 </body>
 </html>
